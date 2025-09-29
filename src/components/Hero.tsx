@@ -28,7 +28,7 @@ const Hero = () => {
     >
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto bg-black/50 backdrop-blur-sm rounded-lg p-8 md:p-12">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             AA Unifer Prestação de Serviços de Reformas Instalações e Construções Ltda
           </h1>

@@ -82,12 +82,14 @@ const Gallery = () => {
                           </CardContent>
                         </Card>
                       </DialogTrigger>
-                      <DialogContent className="max-w-4xl max-h-[90vh] p-0">
-                        <img
-                          src={`/galeria/${image}`}
-                          alt={`Trabalho ${index + 1}`}
-                          className="w-full h-auto object-contain"
-                        />
+                      <DialogContent className="max-w-[95vw] max-h-[95vh] p-2 overflow-hidden">
+                        <div className="flex items-center justify-center h-full">
+                          <img
+                            src={`/galeria/${image}`}
+                            alt={`Trabalho ${index + 1}`}
+                            className="max-w-full max-h-full object-contain"
+                          />
+                        </div>
                       </DialogContent>
                     </Dialog>
                   </div>
